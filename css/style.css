@@ -174,9 +174,9 @@ main {
     flex-wrap: wrap;
 }
 #s2 ul li {
-	width: 31%;
+	width: 30%;
     display: inline-block;
-    margin: 10px;
+    margin: 0 auto;
     padding: 10px;
     background: #ffffff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -264,9 +264,10 @@ main {
 	color: #ffffff;
     text-transform: uppercase;
     font-size: 100px;
-    line-height: 60px;
-    margin: 0px;
+    line-height: 83px;
+    margin: -17px 0px 0px 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
 }
 #s3 p {
 	font-family: 'Raleway', sans-serif;
@@ -305,4 +306,34 @@ main {
 .questions li {margin-top: 30px;}
 .questions li p:nth-child(2) {
 	color: red; margin: 0px;
+}
+@media only screen and (max-width: 700px){ 
+	#s1 figure {
+		width: 90%;
+	}
+	#s1 div {
+		width: 90%;
+		display: inline-block;
+		margin-top: 110px;
+	}
+	#s2 ul {
+		flex-direction: column;
+	}
+	#s2 ul li {
+		width: 95%;
+		margin-bottom: 20px;
+	}	
+	#s2::before {
+		width: 92%;
+		height: 98%;
+	}
+	#s3 div {
+		width: 70%;
+		margin-top: 10px;
+	}
+	#s3 div button {
+		margin: 20px 0px 0px 0px;
+		padding: 17px 27px;
+	}
+
 }
