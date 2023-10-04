@@ -1,0 +1,308 @@
+/* Basic layout styles */
+body {
+	font-size: 100%;
+	font-family: 'Gabarito', cursive;
+	background: #fbfbfd;
+}
+#container {
+	background: #ffffff;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0px 2.5%;
+}
+h3 {margin:80px 0px 40px 0px;}
+h3 img {width: 390px;
+    vertical-align: middle;}
+header {
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: #f1f1f3;
+    text-align: center;
+	padding: 2.5%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+h1 {
+	background: linear-gradient(to right, red,orange,#ffd900,green,blue,indigo,violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 800;
+    width: auto;
+    display: inline-block;
+}
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+/* First Section */
+#s1 {
+	background-color: #fff6f8;
+    border: 1px solid #ffd5de;
+    padding: 20px;
+    border-radius: 3px;
+    padding-bottom: 47px;}
+
+#s1 figure {
+	width: 50%;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 30px 100px 0px #D92148;
+	position:relative;
+	float:left;
+}
+#s1 figure img {
+	width: 100%;
+	margin-bottom: -5px;
+}
+#s1 figure figcaption {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	right: 0px;
+	bottom: -18px;
+	color: #fff6f8;
+	font-weight: 400;
+	font-size: 12px;
+}
+#s1 div {
+	font-family: 'Raleway', sans-serif;
+	width: 45%;
+	float: right;
+	color: #5C4C50;
+	margin-top: 32px;
+}
+#s1 div p {
+	padding: 0px;
+	line-height: 30px;
+	margin-left: 50px;
+	text-align: justify;
+	width: 80%;
+}
+#s1 div h4 {
+	color: #D92148;
+	margin: 5px 0px;
+}
+#s1 div h2 {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 42px;
+	margin: 0px;
+	padding: 0px;
+}
+#s1 div button {
+	margin: 10px 0px 0px 50px;
+	border: 0px;
+	background: #be1d40;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+#s1 div button:hover {
+	color:#ffd5de;
+	background: #5C4C50;
+}
+#s1 div button a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+/* Second Section */
+#s2 {
+	background-color: #AC60B3;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 47px;
+    position: relative;
+}
+#s2::before{
+	content: "";
+    width: 96%;
+    margin: 0%;
+    position: absolute;
+	border: 1px dashed #F8A3FF;
+    height: 94%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#s2 h2 {
+	background: url(../images/Title_2.png);
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 78px;
+    position: relative;
+    margin-top: -40px;
+}
+#s2 h3 {    
+	color: #f8a3ff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+}
+#s2 h4 {
+	margin: -17px auto 0 auto;
+    width: auto;
+    text-align: center;
+    font-size: 19px;
+    padding: 0px;
+    font-weight: lighter;
+    color: #F8A3FF;
+    text-transform: uppercase;
+}
+#s2 ul {
+	width: 98%;
+    padding: 0px;
+    margin: 23px auto 0px auto;
+    list-style: none;
+    position: relative;
+	display: flex;
+    flex-wrap: wrap;
+}
+#s2 ul li {
+	width: 31%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+	border-radius: 10px;
+	vertical-align: top;
+}
+#s2 figure {
+	width: 100%;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+	position:relative;
+	float:left;
+}
+#s2 figure img {
+	width: 100%;
+    margin-bottom: -5px;
+    border-radius: 4px;
+}
+#s2 p {
+	color: #00c1c3;
+    font-weight: lighter;
+    line-height: 26px;
+    text-align: justify;
+    width: 90%;
+    margin: 5%;
+	min-height: 130px;
+}
+#s2 button {
+	margin: 0px;
+    border: 0px;
+    background: #FFD44F;
+    padding: 10px 20px;
+    border-radius: 32px;
+    width: 100%;
+}
+#s2 button:hover {
+	background: #AC60B3;
+}
+#s2 button a {
+	color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+#s2 button a img {
+	width: 20px;
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+}
+
+/* Third Section */
+#s3 {
+	background: url(../images/Basketball.jpg);
+    padding: 20px;
+    padding-bottom: 47px;
+    position: relative;
+    border-bottom: 10px solid #ff723a;
+    height: 450px;
+    background-position: -90px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s3 div {
+	width: auto;
+    float: right;
+    margin-top: 80px;
+    background-color: rgb(61 77 74 / 50%);
+    padding: 30px;
+    margin-right: 30px;
+}
+#s3 h2 {
+	margin: 0px auto;
+    padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ff723a;
+    line-height: 78px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 46px;
+}
+#s3 h3 {    
+	color: #ffffff;
+    text-transform: uppercase;
+    font-size: 100px;
+    line-height: 60px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#s3 p {
+	font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    width: 70%;
+    line-height: 25px;
+    margin: 27px 0px 0px 0px;
+    border-top: 3px solid #465a57;
+    padding-top: 20px;
+}
+#s3 div button {
+	margin: 30px 0px 0px 0px;
+    border: 0px;
+    background: #ff723a;
+    padding: 17px 37px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+#s3 div button:hover {
+	background: #3D4D4A;
+}
+#s3 div button a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Quiz */
+.questions {
+	color: gray;
+}
+.questions li {margin-top: 30px;}
+.questions li p:nth-child(2) {
+	color: red; margin: 0px;
+}
