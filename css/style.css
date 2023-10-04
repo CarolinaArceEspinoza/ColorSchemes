@@ -307,6 +307,8 @@ main {
 .questions li p:nth-child(2) {
 	color: red; margin: 0px;
 }
+
+/* Some corrections for small devices */
 @media only screen and (max-width: 700px){ 
 	#s1 figure {
 		width: 90%;
